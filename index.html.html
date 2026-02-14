@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="João Pedro — Desenvolvedor Front-End e Engenharia de Software. Interfaces modernas, responsivas e experiências digitais que encantam.">
+  <title>João Pedro | Desenvolvedor Front-End</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="cursor" aria-hidden="true"></div>
+
+  <header class="header">
+    <a href="#" class="logo">JP<span class="logo-dot">.</span></a>
+    <nav class="nav">
+      <a href="#sobre">Sobre</a>
+      <a href="#experiencia">Tecnologias</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menu" type="button">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="hero-badge reveal">Front-End Developer · Engenharia de Software</span>
+      <h1 class="hero-title reveal">
+        Interfaces modernas<br>
+        <span class="gradient-text">que parecem o futuro.</span>
+      </h1>
+      <p class="hero-sub reveal">
+        Transformo ideias em experiências digitais imersivas — design e código em harmonia.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#experiencia" class="btn btn-primary">Ver tecnologias</a>
+        <a href="#contato" class="btn btn-ghost">Falar comigo</a>
+      </div>
+      <div class="hero-watermark" aria-hidden="true">JP</div>
+    </section>
+
+    <section id="sobre" class="section section--sobre">
+      <div class="container">
+        <span class="section-label reveal">Sobre mim</span>
+        <h2 class="section-title reveal">Por que trabalhar comigo?</h2>
+        <div class="sobre-layout reveal">
+          <div class="sobre-texto">
+            <p class="sobre-destaque">
+              Sou <strong>João Pedro</strong>, desenvolvedor focado em construir interfaces que unem <strong>design</strong> e <strong>código</strong> para entregar experiências digitais que realmente funcionam.
+            </p>
+            <p>
+              Trabalho com desenvolvimento web moderno, responsividade e animações fluidas. Gosto de resolver problemas com clareza e deixar cada detalhe alinhado ao objetivo do produto — sempre em busca de impacto e qualidade.
+            </p>
+            <div class="sobre-pills">
+              <span class="pill">Front-End</span>
+              <span class="pill">UX & Interface</span>
+              <span class="pill">Performance</span>
+              <span class="pill">Código limpo</span>
+            </div>
+          </div>
+          <div class="sobre-visual">
+            <div class="sobre-card-fake">
+              <span class="fake-line"></span>
+              <span class="fake-line short"></span>
+              <span class="fake-line"></span>
+              <span class="fake-line medium"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section section--tech">
+      <div class="container">
+        <span class="section-label reveal">Stack</span>
+        <h2 class="section-title reveal">Tecnologias</h2>
+        <div class="exp-grid reveal">
+          <div class="exp-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"><span>HTML5</span></div>
+          <div class="exp-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"><span>CSS3</span></div>
+          <div class="exp-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"><span>JavaScript</span></div>
+          <div class="exp-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"><span>C++</span></div>
+          <div class="exp-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL"><span>SQL</span></div>
+          <div class="exp-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><span>Git</span></div>
+          <div class="exp-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"><span>GitHub</span></div>
+          <div class="exp-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"><span>APIs</span></div>
+          <div class="exp-card"><img src="https://cdn-icons-png.flaticon.com/512/2721/2721291.png" alt="Lógica"><span>Lógica</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section section--contato">
+      <div class="container">
+        <span class="section-label reveal">Contato</span>
+        <h2 class="section-title reveal">Vamos conversar?</h2>
+        <p class="contato-intro reveal">
+          Disponível para novos projetos e oportunidades. Entre em contato por e-mail ou telefone.
+        </p>
+        <div class="contato-links reveal">
+          <a href="mailto:joaopedroanjosdearaujo2@gmail.com" class="contato-item">
+            <span class="contato-icon" aria-hidden="true">✉</span>
+            <span>joaopedroanjosdearaujo2@gmail.com</span>
+          </a>
+          <a href="https://wa.me/5561994599637" target="_blank" rel="noopener noreferrer" class="contato-item">
+            <span class="contato-icon" aria-hidden="true">📱</span>
+            <span>(61) 99459-9637</span>
+          </a>
+          <!-- Adicione seus links quando tiver -->
+          <!-- <a href="https://linkedin.com/in/seuuser" target="_blank" rel="noopener" class="contato-item">LinkedIn</a> -->
+          <!-- <a href="https://github.com/seuuser" target="_blank" rel="noopener" class="contato-item">GitHub</a> -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> João Pedro. Feito com foco em detalhes.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
