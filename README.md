@@ -24,12 +24,6 @@ Este repositório contém o código do meu portfólio pessoal. O objetivo deste 
 - ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) **Git**: Controle de versão e histórico de alterações.
 - ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) **GitHub**: Hospedagem do código e deploy automatizado via GitHub Pages.
 
-## 📸 Screenshots
-
-![Preview do Site](portfólio.png)
-
----
-
 ## 📂 Estrutura do Projeto
 
 * `index.html`: Arquivo principal com a estrutura do site.
